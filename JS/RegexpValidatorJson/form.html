@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+  <!--<script src="jquery-3.6.1.js"></script>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <style>
+    #display{
+      width: 30%;
+      height: 300px;
+      overflow: auto;
+    }
+
+  </style>
+</head>
+<body>
+<div>
+  <form action="form.html" name="geek" method="post" id="form">
+    <input type="text" id="name" name="name">Name<br>
+    <input type="text" id="tel" name="tel" placeholder="+7(000)000-0000" >tel<br>
+    <input type="text" id="email" name="email">e-mail<br>
+    <input type="text" id="city" name="city">City<br>
+    <textarea maxlength="100"></textarea><br>
+    <input type="submit" id="btn">
+
+  </form>
+  <div id="display"></div>
+</div>
+<script src="hw2_3.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/modal.js"></script>
+</head>
+
+<body>
+<h1>Gallery Geek Brains Hw 03</h1>
+
+   {# {{ dump(data) }}#}
+
+<div class="gallery">
+   {# <?php for($i = 0;$i < count($result);$i++){?>
+    <a class="image" target="_blank" href="<?php echo "big_image.php?id={$result[$i]['id']}&views={$result[$i]['views']}&path={$result[$i]['max_path']}" ?>">
+        <img class="min" src="<?=$result[$i]['min_path']?>"></a>
+
+    <?php  } ?>#}
+    {% for d in data  %}
+    <a class="image" target="_blank"  href="big_image.php?id={{ d.id }}&views={{d.views }}&path={{ d.max_path }}">
+        <img data-url="{{ d.max_path }}" class="min" src="{{ d.min_path }} "></a>
+    {% endfor %}
+</div>
+<div class="modal-popup">
+    <a class="modal-close">&times;</a>
+</div>
+<div class="popup-overlay"></div>
+</body>
+</html>
+
+
+
+
+

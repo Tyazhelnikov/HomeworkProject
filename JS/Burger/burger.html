@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Burger</title>
+    <script src="burger.js"></script>
+    <script src="BurgerCreate.js"></script>
+
+</head>
+<body>
+<form id="form">
+  <input required type="radio" name="burgerSize" id="small" value="small">Small Burger<br>
+  <input required type="radio" name="burgerSize" id="big" value="big">Big Burger<br>
+    <input required type="radio" name="burgerType" id="cheese" value="cheese">Cheese<br>
+    <input required type="radio" name="burgerType" id="salad" value="salad">Salad<br>
+    <input required type="radio" name="burgerType" id="potato" value="potato">potato<br>
+    <input type="checkbox" name="addition" value="spice">add spice<br>
+    <input type="checkbox" name="addition" value="sauce">add sauce<br>
+  <input type="submit" value="create burger">
+
+</form>
+<script>
+    "use strict"
+    window.onload = ()=> burgerCreate.init();
+
+</script>
+
+
+
+</body>
+</html>

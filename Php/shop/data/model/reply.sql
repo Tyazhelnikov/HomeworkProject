@@ -1,0 +1,1 @@
+SELECT * FROM homework_06.reply;

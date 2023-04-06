@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 2</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="search_menu_wrap">
+                <div class="brand_logo">
+                    <a href="index.html">
+                        <img src="images/Group2.jpg">
+                    </a>
+                </div>
+                <div class="brand_name">
+                    <a href="index.html">
+                        <img src="images/BRAND.png">
+                    </a>
+                </div>
+                <div class="search_form_wrap">
+                    <div class="search_form_wrap__details_wrap">
+                        <details  class="search_form_wrap__details_wrap__browse">
+                            <summary class="search_form_wrap__details_wrap__browse__summary">browse</summary>
+                            <ul class="search_form__ul"> <p>women</p>
+                                <li> <a href="#">tops</a> </li>
+                                <li> <a href="#">sweaters/knifts</a> </li>
+                                <li> <a href="#">jackets/coats</a> </li>
+                                <li> <a href="#">blazers</a> </li>
+                                <li> <a href="#">denim</a> </li>
+                                <li> <a href="#">leggins/pants</a> </li>
+                                <li> <a href="#">skirts/shorts</a> </li>
+                                <li> <a href="#">accessories</a> </li>
+                            </ul>
+                            <ul class="search_form__ul"><p>men</p>
+                                <li> <a href="#">tees/tank tops</a> </li>
+                                <li> <a href="#">shirts/polos</a> </li>
+                                <li> <a href="#">sweaters</a> </li>
+                                <li> <a href="#">sweatshirts/hoodies</a> </li>
+                                <li> <a href="#">blazers</a> </li>
+                                <li> <a href="#">jackets/vests</a> </li>
+                            </ul>
+                        </details>
+                    </div>
+                    <form class="search_form" method="get" action="#">
+                        <input class="search_form_field" type="search" placeholder="Search for item">
+                        <button class="search_form_field__btn" type="submit" value="">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="buy_box">
+                    <img src="images/Forma1.png">
+
+                </div>
+                <div class="buy_form_wrap">
+                    <details>
+                        <summary>My account</summary>
+                    </details>
+
+                </div>
+            </div>
+            <div class="top_menu_wrap">
+                <div class="top_menu">
+                    <div class="top_menu__home">
+                        <a href="index.html">home</a>
+                        <div class="top_menu__home__indicator"></div>
+                    </div>
+                    <div class="top_menu__man">
+                        <a href="index.html">man</a>
+                        <div class="top_menu__man__indicator"></div>
+                    </div>
+                    <div class="top_menu__woman">
+                        <a href="index.html">woman</a>
+                        <div class="top_menu__woman__indicator"></div>
+                    </div>
+                    <div class="top_menu__kids">
+                        <a href="index.html">kids</a>
+                        <div class="top_menu__kids__indicator"></div>
+                    </div>
+                    <div class="top_menu__accessories">
+                        <a href="index.html">accessories</a>
+                        <div class="top_menu__accessories__indicator"></div>
+                    </div>
+                    <div class="top_menu__featured">
+                        <a href="index.html">featured</a>
+                        <div class="top_menu__featured__indicator"></div>
+                    </div>
+                    <div class="top_menu__hot_deals">
+                        <a href="index.html">hot deals</a>
+                        <div class="top_menu__hot_deals__indicator"></div>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="new_arrivals">
+            <p class="new_arrivals__descriptioin">new arrivals</p>
+            <div class="new_arrivals__menu">
+                <ul>
+                    <li><a class="new_arrivals__menu__home" href="#">home</a> </li>
+                    <li><a class="new_arrivals__menu__men" href="#">men</a> </li>
+                    <li><a class="new_arrivals__menu__new" href="#">new arrivals</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <p class="main_form_wrap__description"> 01. shipping adress</p>
+        <div class="main_form_wrap">
+            <div class="main_left_wrap">
+                <span class="main_wrap__header"> check as a guest or register</span><br>
+                <span class="main_wrap__content">Register with us for future convenience</span><br>
+                <br>
+                <form method="post" action="index.html">
+                    <input type="radio" value="guest" name="status"><span class="main_form_wrap__input">checkout as guest</span><br>
+                    <input type="radio" value="reg" name="status"><span class="main_form_wrap__input">register</span><br>
+                    <br>
+                    <span class="main_wrap__header">register and save time !</span><br>
+                    <span class="main_wrap__content">Register with us for future convenience<br>
+                        <br>
+                        &#187;Fast and easy checkout<br>
+                        &#187;Easy access to your order history and status
+                    </span>
+                    <input class="main_wrap__btn__cont" value="continue" type="submit">
+
+                </form>
+            </div>
+            <div class="main_right_wrap">
+                <span class="main_wrap__header">already registered?</span><br>
+                <span class="main_wrap__content">Please log in below</span><br>
+                <br>
+                <form method="post" action="index.html">
+                    <label class="main_form_wrap__input" for="email">email adress*</label><br>
+                    <input required id="email" type="email"><br>
+                    <label class="main_form_wrap__input" for="pasword">password*</label><br>
+                    <input required id="pasword" type="password"><br>
+                    <span class="main_right_wrap__required">required* fields</span>
+                    <br>
+                    <input class="main_wrap__btn__login" type="submit" value="log in">
+                    <a class="main_wrap__lnk" href="#">forgot password?</a>
+                </form>
+            </div>
+        </div>
+        <div class="main_header__wrap">
+            <p class="main_header__description"> 02. billing information</p>
+            <p class="main_header__description"> 03. shipping information</p>
+            <p class="main_header__description"> 04. shipping method</p>
+            <p class="main_header__description"> 05. payment method</p>
+            <p class="main_header__description"> 06. order review</p>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_wrap">
+            <div class="footer_subscribe">
+                <img src="images/Subscribe.jpg">
+                <div class="footer_subscribe__logo">
+                    <img src="images/Layer40.png">
+                </div>
+                <div class="footer_subscribe__quote">
+                    <span>Vestibulum quis porttitor dui! Quisque viverra nunc mi,<br>
+                    a pulvinar purus condimentum a. Aliquam condimentum <br>
+                    mattis neque sed pretium”</span>
+                    <p>bin burhan</p>
+                    <span>Dhaka,Bd </span>
+                </div>
+                <div class="footer_subscribe__header">
+                    <p>subscribe</p>
+                    <span>for our newsteller and promotion</span>
+                </div>
+                <div class="footer_subscribe__form">
+                    <form method="post" action="index.html">
+                        <input class="footer_subscribe__form__field" type="email" placeholder="enter your email">
+                        <input class="footer_subscribe__form__btm" value="Subscribe" type="submit">
+                    </form>
+                </div>
+            </div>
+            <div class="footer_menu_wrap">
+                <div class="brand_logo">
+                    <a href="index.html">
+                        <img src="images/Logo_copy.png">
+                    </a>
+
+                </div>
+                <div class="underbrand_text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto atque expedita facilis
+                    molestias natus obcaecati provident reiciendis. Deleniti dolores eos explicabo fuga in ipsum iusto
+                    labore maxime natus necessitatibus nisi, obcaecati odit omnis porro quasi quod reprehenderit saepe
+                    sapiente suscipit tempora temporibus veniam vitae voluptate. Nihil sed tempora temporibus.
+                </div>
+                <div class="company">
+                    <p>company</p>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="index.html">shop</a></li>
+                        <li><a href="index.html">about</a></li>
+                        <li><a href="index.html">how it works</a></li>
+                        <li><a href="index.html">contact</a></li>
+                    </ul>
+                </div>
+                <div class="information">
+                    <p>information</p>
+                    <ul>
+                        <li><a href="index.html">terms & conditions</a></li>
+                        <li><a href="index.html">privacy pollicy</a></li>
+                        <li><a href="index.html">how to buy</a></li>
+                        <li><a href="index.html">how to sell</a></li>
+                        <li><a href="index.html">promotion</a></li>
+                    </ul>
+                </div>
+                <div class="shop_category">
+                    <p>shop category</p>
+                    <ul>
+                        <li><a href="index.html">men</a></li>
+                        <li><a href="index.html">women</a></li>
+                        <li><a href="index.html">child</a></li>
+                        <li><a href="index.html">apparel</a></li>
+                        <li><a href="index.html">browse all</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_social_wrap">
+                <p class="copyright">&#169; 2017 brand all rights reserved</p>
+                <div class="social_icon__wrap">
+                    <div class="social_icon">
+                        <a class="facebook" href="https://www.facebook.com/">
+                            <img src="images/facebook.png">
+                        </a>
+                    </div>
+                    <div class="social_icon">
+                        <a class="twitter" href="https://twitter.com/?lang=ru">
+                            <img src="images/twitter.png">
+                        </a>
+                    </div>
+                    <div class="social_icon">
+                        <a class="insta" href="https://www.instagram.com/">
+                            <img src="images/in.png">
+                        </a>
+                    </div>
+                    <div class="social_icon">
+                        <a class="pin" href="https://ru.pinterest.com/">
+                            <img src="images/p.png">
+                        </a>
+                    </div>
+                    <div class="social_icon">
+                        <a class="gplus" href="https://plus.google.com/discover">
+                            <img src="images/gplus.png">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</html>

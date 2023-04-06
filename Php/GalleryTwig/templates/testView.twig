@@ -1,0 +1,40 @@
+<html>
+<head>
+     <style type="text/css">
+          table {
+               border-collapse: collapse;
+          }
+          tr.heading {
+               font-weight: bolder;
+          }
+          td {
+               border: 1px solid black;
+               padding: 0 0.5em;
+          }
+     </style>
+</head>
+<body>
+<h2>Countries and capitals</h2>
+<table>
+     <tr class="heading">
+          <td>Country</td>
+          <td>Region</td>
+          <td>Population</td>
+          <td>Capital</td>
+          <td>Language</td>
+     </tr>
+     {% for d in data %}
+          <tr>
+               <td>{{ d.name }}</td>
+               <td>{{ d.region }}</td>
+               <td>{{ d.population }}</td>
+               <td>{{ d.capital }}</td>
+               <td>{{ d.language }}</td>
+          </tr>
+     {% endfor %}
+</table>
+<pre>
+    {{ dump(data) }}
+</pre>
+</body>
+</html>
